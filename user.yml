@@ -1,0 +1,14 @@
+spring:
+ datasource:
+   url: jdbc:h2:mem:/~/test
+   username: sa
+   # 작은따옴표로 묶고 앞에 {cipher} 라 적으면 암호화된 값이라는 것을 명시하는 것이다.
+   password: '{cipher}AQA3A6sSh1IHyUWDN6Yw7xuCctLMbC9t/Uf7FsYD/pSLDR1izQRlVwvVPEHJYD3Rs6m8XwSWVkpwp0N3rMEYJMtZDJNrsD48c7h6iPaBreXV3j5NzPgvdS35QQT1s+xaajqpIU8r87jRtbqeUTvgNEbwWTjHdeb+hvQCeoXrnnwAHiBGe+OWVn5qSlXDHXbTahmAbkXnH2zruzgZ8DFO6c+b6oYeRr+btz8I8T86jQFgKLctDkLqwIKPmtvxGdQ0yY2KC715inLKptJnResNBLMvRvvKCqIydNc/iyrXos4nzKDs/5wThh61yOzm5A7XlOTpshc1DV+YNGS0tRKXUYjRA7qXc3EgLsHCPJRlWRUMa4C7jKO0ltiYhknEVnTtCJc='
+   driver-class-name: org.h2.Driver
+
+token:
+  expiration_time: 86400000
+  secret: '{cipher}AQAea3576wxMqneS9TP9HZL/32Rb3uz9h9Vv28PPK/e2kWn2nNPik8z/nD88+SJST5YsB4xNuA/j3bdlRj+2F49AvlZQgTwd6yk7ho0nMISBwXrNt4nRYrQDuNH6zX6WsRg++Rlo8QmJKZGeDaAVWV5oVUEKTLrGGT+Uft8g9Gr3HMcibiNaoCb3qXhm0Aie+3RLLO9F68qmC646L8PJhuvvOF+8QwK167Z9VoPgkojEYgNkM16uPu5rHj8+4Yy2eqJn4gJsnCs+GdVrrnHf1ELEMOxTrTZNKgOJrZlaBBzkjgSJb3X1YvDgv1DkHwgKIKR8nXxO++mgHHuKqo+qJtERpbzd3pvUeq/I6MSE20rz14ipZRnSXQmTihmTeII53NZ21+keP+KgexDu+X+Jc8rf1/bhF0rSnRJ4HI5lrW+tkrw57lXugHdooB2an9dgJWJpSM9lKDtY5m0IpebooOQajnGAZyay78U2Wzp7UWdnOw=='
+
+order-service:
+  url: http://order-service/%s/orders
