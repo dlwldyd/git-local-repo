@@ -3,7 +3,7 @@ spring:
    url: jdbc:h2:mem:/~/test
    username: sa
    # 작은따옴표로 묶고 앞에 {cipher} 라 적으면 암호화된 값이라는 것을 명시하는 것이다.
-   password: '{cipher}AQA3A6sSh1IHyUWDN6Yw7xuCctLMbC9t/Uf7FsYD/pSLDR1izQRlVwvVPEHJYD3Rs6m8XwSWVkpwp0N3rMEYJMtZDJNrsD48c7h6iPaBreXV3j5NzPgvdS35QQT1s+xaajqpIU8r87jRtbqeUTvgNEbwWTjHdeb+hvQCeoXrnnwAHiBGe+OWVn5qSlXDHXbTahmAbkXnH2zruzgZ8DFO6c+b6oYeRr+btz8I8T86jQFgKLctDkLqwIKPmtvxGdQ0yY2KC715inLKptJnResNBLMvRvvKCqIydNc/iyrXos4nzKDs/5wThh61yOzm5A7XlOTpshc1DV+YNGS0tRKXUYjRA7qXc3EgLsHCPJRlWRUMa4C7jKO0ltiYhknEVnTtCJc='
+   password: '{cipher}AQCFaS3imzykIx5L8LFVODj9TxwJHJSHJswljs+hZTj5rL2nuxQp2lsQ6KBzFFTBrqo52P3SuxiwqQYB40XfJdLaQ3P8qm+H+IU/TaDyxLSA4oi70BywKlXjmRQGYCmHvm62LpJ/XXM4H64xb8oifrL4T2jObsMrloQuEOFdNQHwhWLYYZ6iQBfL+HswFCKZgiJ0Q/H1r+IHi1WiT9ON1ouSiJx37+W3+mPHib+pL7xHbGklnXJvsFJa3WmikDYj/dV1muy7nL4TUWo8VP00AaKMXO7CgtNCPT2ZIiBeFX7lCVGdCZdKy+1G4WnhDpgYDxCVOge4qQr3iCyNrq/xg29HfmBgnmVB/49QhhYvgY7sqriWrLxbTDQ8dNEWJO2/tII='
    driver-class-name: org.h2.Driver
 
 gateway:
